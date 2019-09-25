@@ -5,8 +5,6 @@ Author: ReportSHIELD Developers <datashield@newcastle.ac.uk>
 Maintainer: DataSHIELD Developers <datashield@newcastle.ac.uk>
 License: GPL-3
 Description: ReportSHIELD server site base functions.
-Imports:
-    dsBaseClient
 AggregateMethods:
     survivalRS
 RoxygenNote: 6.1.1
