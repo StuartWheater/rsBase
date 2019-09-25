@@ -1,0 +1,5 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^azure-pipelines\.yml$
+^azure-pipelines_check\.Rout$
+^LICENSE.md$
