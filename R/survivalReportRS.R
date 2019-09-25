@@ -15,7 +15,7 @@ survivalReportRS <- function() {
 
     opals <- opal::datashield.login(logins=logindata,assign=TRUE)
 
-    report <- data.frame(x=c(0.0, 1.0, 2.0, 3.0, 4.0, 5.0), y=c(100.0, 80.0, 75.0, 60.0, 20.0, 0.0))
+    report <- dsBaseClient::ds.mean(datasources=opals, x='D$age.60', type='both')
 
     opal::datashield.logout(opal=opals)
 
