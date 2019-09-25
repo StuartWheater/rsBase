@@ -6,5 +6,5 @@ Maintainer: DataSHIELD Developers <datashield@newcastle.ac.uk>
 License: GPL-3
 Description: ReportSHIELD server site base functions.
 AggregateMethods:
-    survivalRS
+    survivalReportRS
 RoxygenNote: 6.1.1
