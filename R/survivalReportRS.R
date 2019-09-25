@@ -6,7 +6,18 @@
 #' @export
 #'
 survivalReportRS <- function() {
+    server    <- c("survival1", "survival2", "survival3")
+    url       <- c("https://192.168.56.100:8443")
+    user      <- "administrator"
+    password  <- "datashield_test&"
+    table     <- c("SURVIVAL.EXPAND_WITH_MISSING1", "SURVIVAL.EXPAND_WITH_MISSING2", "SURVIVAL.EXPAND_WITH_MISSING3")
+    logindata <- data.frame(server,url,user,password,table)
+
+    opals <- opal::datashield.login(logins=logindata,assign=TRUE)
+
     report <- data.frame(x=c(0.0, 1.0, 2.0, 3.0, 4.0, 5.0), y=c(100.0, 80.0, 75.0, 60.0, 20.0, 0.0))
+
+    opal::datashield.logout(opal=opals)
 
     return(report)
 }
