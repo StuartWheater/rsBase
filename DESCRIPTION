@@ -1,7 +1,7 @@
 Package: rsBase
 Title: ReportSHIELD server site base functions
 Version: 1.0.0
-Author: ReportSHIELD Developers <datashield@newcastle.ac.uk>
+Author: DataSHIELD Developers <datashield@newcastle.ac.uk>
 Maintainer: DataSHIELD Developers <datashield@newcastle.ac.uk>
 License: GPL-3
 Description: ReportSHIELD server site base functions.
